@@ -16,6 +16,7 @@ data/*
 ~$*.docx
 # 예외: 공동연구자 검토본은 추적
 !paper/draft_review_v1.docx
+!paper/draft_review_v2.docx
 
 # === 가상환경 / 캐시 ===
 venv/

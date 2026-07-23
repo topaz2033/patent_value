@@ -1,0 +1,32 @@
+# === 원시 데이터 / 대용량 산출물 (재배포 권한·용량 문제로 제외) ===
+data/*
+!data/README.md
+*.parquet
+*.feather
+*.csv.gz
+
+# 학습된 모델 바이너리 (RandomForest.pkl 467MB 등) — 코드로 재생성
+*.pkl
+*.joblib
+*.npy
+
+# === 가상환경 / 캐시 ===
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# === Claude Code 로컬 설정 (머신별) ===
+.claude/
+
+# === OS / 에디터 ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === 예외: 재현에 필요한 소형 메타데이터는 추적 유지 ===
+!output/models/_meta.json
+!output/models/_shap_summary.json

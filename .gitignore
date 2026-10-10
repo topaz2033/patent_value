@@ -38,3 +38,10 @@ Thumbs.db
 # === 예외: 재현에 필요한 소형 메타데이터는 추적 유지 ===
 !output/models/_meta.json
 !output/models/_shap_summary.json
+
+# 로컬 자격증명 / 환경 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
